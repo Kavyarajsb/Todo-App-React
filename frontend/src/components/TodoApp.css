@@ -1,0 +1,86 @@
+body{
+    background-image: url(../Images/new.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container {
+    width: 50%;
+    margin-top: 50px;
+    background-color: #012727d7;
+    border: none;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+
+
+
+.form-group{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    width: auto;
+}
+
+button{
+    margin-left: 20px;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 40%;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.todo{
+    color: rgb(0, 0, 0);
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.708) !important;
+    color: rgba(26, 26, 26, 0.823) !important;
+    border: none !important;
+    list-style: none;
+    border-radius: 3px;
+    padding: 10px;
+    margin-left: -12px;
+}
+
+.list{
+    margin-top: 30px !important;
+}
+
+
+.list-item-icons{
+    display: flex;
+    float: right;
+}
+
+
+.list-item-icons{
+    padding-left: 5px;
+    font-size: 30px;
+}
+
+.deleteicn{
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #eee;
+  margin-right: 8px;
+  
+}
+
+#edit{
+    color: rgba(55, 55, 55, 0.823);
+    /* height: 25px;
+    width: 25px; */
+}
